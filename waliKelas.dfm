@@ -182,10 +182,10 @@ object Form7: TForm7
     OnClick = b2Click
   end
   object b3: TButton
-    Left = 249
-    Top = 302
-    Width = 75
-    Height = 26
+    Left = 241
+    Top = 296
+    Width = 80
+    Height = 32
     Caption = 'EDIT'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -199,7 +199,7 @@ object Form7: TForm7
   object b4: TButton
     Left = 337
     Top = 299
-    Width = 75
+    Width = 72
     Height = 29
     Caption = 'HAPUS'
     Font.Charset = DEFAULT_CHARSET
@@ -228,9 +228,9 @@ object Form7: TForm7
   end
   object Bb6: TButton
     Left = 513
-    Top = 302
+    Top = 296
     Width = 75
-    Height = 26
+    Height = 32
     Caption = 'LAPORAN'
     TabOrder = 6
     OnClick = Bb6Click

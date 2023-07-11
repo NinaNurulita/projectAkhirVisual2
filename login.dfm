@@ -4,7 +4,7 @@ object Form2: TForm2
   Width = 535
   Height = 377
   Caption = 'LOGIN'
-  Color = clHighlight
+  Color = clHotLight
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -67,7 +67,7 @@ object Form2: TForm2
     TabOrder = 1
   end
   object b1: TButton
-    Left = 160
+    Left = 120
     Top = 213
     Width = 97
     Height = 44
@@ -82,7 +82,7 @@ object Form2: TForm2
     OnClick = b1Click
   end
   object b2: TButton
-    Left = 280
+    Left = 296
     Top = 213
     Width = 97
     Height = 44

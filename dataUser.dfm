@@ -100,8 +100,8 @@ object Form12: TForm12
     OnCellClick = dg1CellClick
   end
   object b1: TButton
-    Left = 65
-    Top = 227
+    Left = 57
+    Top = 219
     Width = 75
     Height = 29
     Caption = 'BARU'
@@ -115,8 +115,8 @@ object Form12: TForm12
     OnClick = b1Click
   end
   object b2: TButton
-    Left = 153
-    Top = 227
+    Left = 145
+    Top = 219
     Width = 75
     Height = 29
     Caption = 'SIMPAN'
@@ -130,8 +130,8 @@ object Form12: TForm12
     OnClick = b2Click
   end
   object b3: TButton
-    Left = 249
-    Top = 230
+    Left = 233
+    Top = 222
     Width = 75
     Height = 26
     Caption = 'EDIT'
@@ -145,8 +145,8 @@ object Form12: TForm12
     OnClick = b3Click
   end
   object b4: TButton
-    Left = 337
-    Top = 227
+    Left = 321
+    Top = 219
     Width = 75
     Height = 29
     Caption = 'HAPUS'
@@ -160,8 +160,8 @@ object Form12: TForm12
     OnClick = b4Click
   end
   object b5: TButton
-    Left = 425
-    Top = 227
+    Left = 409
+    Top = 219
     Width = 75
     Height = 29
     Caption = 'BATAL'
@@ -175,10 +175,10 @@ object Form12: TForm12
     OnClick = b5Click
   end
   object Bb6: TButton
-    Left = 513
-    Top = 230
+    Left = 497
+    Top = 216
     Width = 75
-    Height = 26
+    Height = 32
     Caption = 'LAPORAN'
     TabOrder = 6
     OnClick = Bb6Click

@@ -4,7 +4,7 @@ object Form3: TForm3
   Width = 537
   Height = 391
   Caption = 'DAFTAR'
-  Color = clHighlight
+  Color = clHotLight
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -93,8 +93,8 @@ object Form3: TForm3
     TabOrder = 1
   end
   object b1: TButton
-    Left = 144
-    Top = 261
+    Left = 152
+    Top = 253
     Width = 97
     Height = 44
     Caption = 'DAFTAR'
@@ -108,8 +108,8 @@ object Form3: TForm3
     OnClick = b1Click
   end
   object b2: TButton
-    Left = 264
-    Top = 261
+    Left = 320
+    Top = 253
     Width = 97
     Height = 44
     Caption = 'LOGIN'
@@ -155,8 +155,8 @@ object Form3: TForm3
     User = 'root'
     Protocol = 'mysql'
     LibraryLocation = 'D:\Tugas visual 2\libmysql.dll'
-    Left = 376
-    Top = 256
+    Left = 448
+    Top = 120
   end
   object zqry1: TZQuery
     Connection = con1
@@ -164,12 +164,12 @@ object Form3: TForm3
     SQL.Strings = (
       'SELECT * FROM tabel_user')
     Params = <>
-    Left = 416
-    Top = 256
+    Left = 448
+    Top = 176
   end
   object ds1: TDataSource
     DataSet = zqry1
-    Left = 456
-    Top = 256
+    Left = 448
+    Top = 240
   end
 end
